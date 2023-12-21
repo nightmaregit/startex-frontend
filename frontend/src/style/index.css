@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+  .SignIn{
+    @apply  flex h-full flex-wrap justify-center items-center ; 
+  }
+
+ .bagian1-signin{
+ @apply  w-[441px] h-[598px]  bg-[#0C356A] rounded-[20px] flex-col justify-start flex items-center ;
+ }
+
+ .textbagian1{
+  @apply text-center text-white text-[28px] font-semibold font-['Montserrat',sans-serif];
+ }
+
+ .bagian2-signin{
+  @apply  w-[441px] h-[598px]  bg-orange-50 rounded-[20px] flex-col  justify-start  flex items-center;
+  }
+
+ .textbagian2{
+  @apply text-black text-center text-[28px] font-bold font-['Montserrat',sans-serif]  justify-center items-center ;
+ }
+
+  .label-signin{
+    @apply text-black text-lg font-semibold font-['Inter',sans-serif];
+  }
+
+  .input-signin{
+    @apply  w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] px-[22px]  text-white placeholder-white placeholder-opacity-25 text-[15px] font-['Inter',sans-serif] font-medium ;
+  }
+
+  .buttonMasuk-signin{
+    @apply w-[348px] h-[51px] bg-orange-50 rounded-[5px] text-black text-lg font-bold  m-5 ;
+  }
+
+ .buttonDaftar-signin{
+  @apply text-white text-lg font-semibold font-['Inter',sans-serif] w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] ;
+ }
+
+ .buttonMasukgoogle-signin{
+  @apply w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] text-white text-[15px] font-semibold font-['Inter',sans-serif];
+ }
+
+  .page-container {
+    @apply h-screen p-0 m-0 flex items-center justify-center  ;
+  }
+  .logo-style {
+    @apply h-72 w-72 transition hover:animate-spin cursor-pointer;
+  }
+  .title {
+    @apply text-white text-center text-2xl sm:text-5xl;
+  }
+}
+
